@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background: #f06a19;
+  background: #000;
 }
 
 .App {
@@ -28,16 +28,16 @@ body {
 }
 .box_2,
 .box {
-  width: 300px;
+  width: 750px;
 }
 .kaka {
-  font-size: 30px;
+  font-size: 85px;
   color: #fff;
-  width: 300px;
+  width: 750px;
   line-height: 1.6em;
 }
 .confetti{
-  width: 440px;
+  width: 650px;
   margin: 500px auto 0;
   text-align: center;
   padding: 10px 0;
@@ -66,28 +66,40 @@ body {
   bottom: 90%;
   left: 50%;
 }
-.kuku {
+.kaka {
   position: absolute;
   left: 50%;
   transform: translate(-50%);
   bottom: 0;
   z-index: -1;
 }
-.kiki{
-  line-height: 30px;
-  width: 200px;
+ .heart {
   position: absolute;
   left: 50%;
-  bottom: 22%;
-  transform: translate(-50%,-100%);
+  transform: translate(-50%);
   bottom: 0;
   z-index: -1;
+  font-size: 48px;
+  line-height: 3000px;
+  width: 300px;
+}
+.kiki{
+  font-size: 65px;
+  line-height: 3000px;
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  transform: translate(-50%,-50%);
+  bottom: 0;
+  z-index: -1;
+  color: #fff;
 }
 .lid {
   position: absolute;
   left: 50%;
   transform: translate(-50%);
-  bottom: 12.8em;
+  bottom: 36.8em;
 }
 
 .jump {
@@ -144,6 +156,6 @@ body {
     bottom: 0;
   }
   to {
-    bottom: 18.5em;
+    bottom: 16.5em;
   }
 }

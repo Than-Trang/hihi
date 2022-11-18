@@ -3,8 +3,9 @@ import "./styles.css";
 
 import box from "./images/box.png";
 import boxLid from "./images/box-lid.png";
-import kuku from "./images/jump-character.png";
-import kiki from "./images/LG-EcomElite-png-1.png";
+// import kuku from "./images/jump-character.png";
+import kiki from "./images/LG-EcomElite-png-3.png";
+import heart from "./images/4.png";
 // import ConfettiGenerator from "./CanvasConfetti";
 import Confetti from "./confetti/Confetti";
 import Confetti2 from "./confetti/Confetti";
@@ -68,11 +69,12 @@ export default function GiftBoxAnimation() {
       <Confetti className="hh" open={jump === "jump"} />
 
       <div className="img-container">
-        <p className={`kuku ${jump} kaka`}>Chào mừng ngày quốc tế nam giới</p>
+        <p className={`kaka ${jump} `}>Chào mừng ngày quốc tế nam giới</p>
         <img className={`kiki ${jump}`} src={kiki} alt="kiki" />
-        <img className={`kuku ${jump}`} src={kuku} alt="kuku" />
+        {/* <img className={`kuku ${jump}`} src={kuku} alt="kuku" /> */}
+        <img className={`heart ${jump}`} src={heart} alt="heart" />
         <button className="box" onClick={() => animate()}>
-          <img className="box_2" src={box} alt="box" />
+          <img  className="box_2" src={box} alt="box" />
         </button>
         <img
           className={`lid ${move} ${rotating} ${rotated} box`}
